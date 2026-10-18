@@ -1,7 +1,7 @@
 'use strict';
 (() => {
  const rows = [
- ['Тема','Theme','Тема'],['Язык','Language','Мова'],['Как начать','Get started','Як почати'],['Все версии ↗','All releases ↗','Усі версії ↗'],['Конфиденциальность','Privacy','Конфіденційність'],
+ ['Тема','Theme','Тема'],['Язык','Language','Мова'],['Как начать','Get started','Як почати'],['Актуальная версия ↗','Latest release ↗','Актуальна версія ↗'],['Конфиденциальность','Privacy','Конфіденційність'],
  ['Твой стрим.','Your stream.','Твій стрим.'],['Непредсказуемая игра.','Unpredictable gameplay.','Непередбачувана гра.'],
  ['Зрители пишут команды, ставят лайки и отправляют подарки. ChaosLIVE превращает их реакции в события в твоём мире Minecraft.','Viewers send commands, likes and gifts. ChaosLIVE turns their reactions into events in your Minecraft world.','Глядачі пишуть команди, ставлять вподобайки та надсилають подарунки. ChaosLIVE перетворює їхні реакції на події у твоєму світі Minecraft.'],
  ['Открыть официальные загрузки ↗','Open official downloads ↗','Відкрити офіційні завантаження ↗'],['Скачать для Windows ↓','Download for Windows ↓','Завантажити для Windows ↓'],['♥ Поддержать проект ↗','♥ Support the project ↗','♥ Підтримати проєкт ↗'],
