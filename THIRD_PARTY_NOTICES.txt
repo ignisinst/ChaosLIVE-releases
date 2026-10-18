@@ -1,0 +1,40 @@
+THIRD-PARTY NOTICES — ChaosLIVE by Cloud
+© 2026 Cloud. All rights reserved. applies only to Cloud components.
+
+Build-generated dependency_inventory.json and third_party_licenses/ record actual
+versions and license texts installed in the clean Windows build environment.
+Do not remove those files when redistributing the official installer.
+
+Principal dependencies (verify against the generated inventory for each release):
+Python — PSF License: https://docs.python.org/3/license.html
+PySide6, Shiboken6, Qt — LGPLv3 / GPL / commercial as applicable:
+https://doc.qt.io/qt-6/licensing.html
+https://www.qt.io/development/open-source-lgpl-obligations
+https://download.qt.io/official_releases/QtForPython/
+https://download.qt.io/official_releases/qt/
+https://code.qt.io/cgit/pyside/pyside-setup.git/
+Qt libraries remain dynamically linked, replaceable and are not checked by the
+first-party integrity policy. Reverse engineering to debug modifications to LGPL
+libraries is permitted. Match upstream source archives/tags to the recorded versions.
+FastAPI — MIT: https://github.com/fastapi/fastapi
+Uvicorn — BSD-3-Clause: https://github.com/encode/uvicorn
+Pydantic — MIT: https://github.com/pydantic/pydantic
+TikTokLive 7.0.1 — Modified AGPL-3.0 with additional integration permissions (sections 18–21):
+https://github.com/isaackogan/TikTokLive/blob/v7.0.1/LICENSE
+Desktop games/stream bots may use the section 18 exception; this app is not a hosted
+relay, scraping API or SaaS service. Hosting such services requires a new license review.
+EulerApiSdk — MIT, upstream: https://github.com/EulerStream/TikTok-Live-Api/blob/master/LICENSE
+A copy is supplied in vendor_licenses/EulerApiSdk-LICENSE.txt.
+mcrcon — MIT: https://github.com/Uncaught-Exceptions/MCRcon
+psutil — BSD-3-Clause: https://github.com/giampaolo/psutil
+python-dotenv — BSD-3-Clause: https://github.com/theskumar/python-dotenv
+Requests — Apache-2.0: https://github.com/psf/requests
+pywin32 — Python Software Foundation terms: https://github.com/mhammond/pywin32
+Nuitka — Apache-2.0 (build tool): https://github.com/Nuitka/Nuitka
+PyInstaller — GPL with distribution exception (fallback build tool): https://pyinstaller.org/en/stable/license.html
+Inno Setup — its own license (installer tool): https://jrsoftware.org/files/is/license.txt
+Transitive dependencies retain their own licenses; the generated inventory is authoritative
+for installed package versions and includes build-only tools, not only runtime files.
+Third-party trademarks and compatibility logos remain with their respective owners.
+No Cloud license restriction overrides rights granted by a third-party license.
+Technical notice, not a legal compliance certification.
